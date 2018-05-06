@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BWString	BWString.cpp	/^BWString::BWString( ) {$/;"	f	class:BWString
+BWString	BWString.cpp	/^BWString::BWString( const BWString & old ) {$/;"	f	class:BWString
+BWString	BWString.cpp	/^BWString::BWString( const char * s ) {$/;"	f	class:BWString
+BWString	BWString.h	/^class BWString {$/;"	c
+BWUTest	BWUTest.cpp	/^BWUTest::BWUTest( const char * tstr ) {$/;"	f	class:BWUTest
+BWUTest	BWUTest.h	/^    BWUTest(){}                             \/\/ no default constructor$/;"	f	class:BWUTest
+BWUTest	BWUTest.h	/^class BWUTest {$/;"	c
+_CRT_SECURE_NO_WARNINGS	BWString.h	12;"	d
+_NOEXCEPT	BWString.h	/^    BWString( BWString &&) _NOEXCEPT;       \/\/ move constructor$/;"	m	class:BWString
+_NOEXCEPT	BWString.h	19;"	d
+__BWLIB__BWString__	BWString.h	8;"	d
+__BWLib__BWUTest__	BWUTest.h	8;"	d
+__BWString__MAX_LEN	BWString.h	29;"	d
+__BWString__MAX_SPLIT	BWString.h	30;"	d
+__BWString__VERSION	BWString.h	28;"	d
+__BWUTest_VERSION	BWUTest.h	12;"	d
+__bwu_fstr	BWUTest.h	/^const static char * __bwu_fstr = "fail";$/;"	v
+__bwu_pstr	BWUTest.h	/^const static char * __bwu_pstr = "pass";$/;"	v
+_append_split_array	BWString.cpp	/^void BWString::_append_split_array(const BWString & s) const {$/;"	f	class:BWString
+_bwsp	BWString.h	/^    typedef std::shared_ptr<BWString> _bwsp;$/;"	t	class:BWString
+_fail_count	BWUTest.h	/^    unsigned long int _fail_count = 0;$/;"	m	class:BWUTest
+_pass_count	BWUTest.h	/^    unsigned long int _pass_count = 0;$/;"	m	class:BWUTest
+_reset_split_array	BWString.cpp	/^void BWString::_reset_split_array() const {$/;"	f	class:BWString
+_split_array	BWString.h	/^    mutable _split_ptr _split_array;$/;"	m	class:BWString
+_split_count	BWString.h	/^    mutable size_t _split_count = 0;$/;"	m	class:BWString
+_split_ptr	BWString.h	/^    typedef std::unique_ptr<_bwsp[]> _split_ptr;$/;"	t	class:BWString
+_str	BWString.h	/^    char * _str = nullptr;$/;"	m	class:BWString
+_str_len	BWString.h	/^    size_t _str_len = 0;$/;"	m	class:BWString
+_summary_flag	BWUTest.h	/^    bool _summary_flag = false;$/;"	m	class:BWUTest
+_tstr	BWUTest.h	/^    const char * _tstr = nullptr;$/;"	m	class:BWUTest
+alloc_str	BWString.cpp	/^const char * BWString::alloc_str( size_t sz ) {$/;"	f	class:BWString
+back	BWString.cpp	/^const char & BWString::back() const {$/;"	f	class:BWString
+c_str	BWString.cpp	/^const char * BWString::c_str() const {$/;"	f	class:BWString
+char_find	BWString.cpp	/^long int BWString::char_find( const char & match ) const {$/;"	f	class:BWString
+char_repl	BWString.cpp	/^const BWString & BWString::char_repl( const char & match, const char & repl ) {$/;"	f	class:BWString
+copy_str	BWString.cpp	/^const char * BWString::copy_str( const char * s) {$/;"	f	class:BWString
+fail_count	BWUTest.h	/^    unsigned long int fail_count() const { return _fail_count; }$/;"	f	class:BWUTest
+find	BWString.cpp	/^long BWString::find( const BWString & match ) const {$/;"	f	class:BWString
+format	BWString.cpp	/^BWString & BWString::format( const char * format , ... ) {$/;"	f	class:BWString
+front	BWString.cpp	/^const char & BWString::front() const {$/;"	f	class:BWString
+have_value	BWString.cpp	/^bool BWString::have_value() const {$/;"	f	class:BWString
+init	BWUTest.cpp	/^void BWUTest::init( const char * tstr ) {$/;"	f	class:BWUTest
+length	BWString.h	/^    size_t length() const { return _str_len; }$/;"	f	class:BWString
+lower	BWString.cpp	/^BWString BWString::lower() const {$/;"	f	class:BWString
+main	hello.cpp	/^int main( int argc, char ** argv ) {$/;"	f
+main	unit-tests.cpp	/^int main(int argc, const char * argv[])$/;"	f
+message	hello.cpp	/^void message(const char * s) {$/;"	f
+operator !=	BWString.cpp	/^bool BWString::operator != ( const BWString & rhs ) const {$/;"	f	class:BWString
+operator +	BWString.cpp	/^BWString operator + ( const BWString & lhs, const BWString & rhs ) {$/;"	f
+operator +=	BWString.cpp	/^BWString & BWString::operator += ( const BWString & rhs ) {$/;"	f	class:BWString
+operator +=	BWString.cpp	/^BWString & BWString::operator += ( const char * rhs ) {$/;"	f	class:BWString
+operator <	BWString.cpp	/^bool BWString::operator < ( const BWString & rhs ) const {$/;"	f	class:BWString
+operator <=	BWString.cpp	/^bool BWString::operator <= ( const BWString & rhs ) const {$/;"	f	class:BWString
+operator =	BWString.cpp	/^BWString & BWString::operator = ( BWString other ) {$/;"	f	class:BWString
+operator ==	BWString.cpp	/^bool BWString::operator == ( const BWString & rhs ) const {$/;"	f	class:BWString
+operator >	BWString.cpp	/^bool BWString::operator > ( const BWString & rhs ) const {$/;"	f	class:BWString
+operator >=	BWString.cpp	/^bool BWString::operator >= ( const BWString & rhs ) const {$/;"	f	class:BWString
+operator []	BWString.cpp	/^const char BWString::operator[] ( const int index ) const {$/;"	f	class:BWString
+operator const char *	BWString.cpp	/^BWString::operator const char * () const {$/;"	f	class:BWString
+pass_count	BWUTest.h	/^    unsigned long int pass_count() const { return _pass_count; }$/;"	f	class:BWUTest
+replace	BWString.cpp	/^const BWString BWString::replace( const BWString & match, const BWString & repl ) {$/;"	f	class:BWString
+report	BWUTest.cpp	/^void BWUTest::report() const {$/;"	f	class:BWUTest
+reset	BWString.cpp	/^void BWString::reset() {$/;"	f	class:BWString
+size	BWString.h	/^    size_t size() const { return _str_len; }$/;"	f	class:BWString
+split	BWString.cpp	/^const BWString::split_ptr & BWString::split( const char * match ) const {$/;"	f	class:BWString
+split	BWString.cpp	/^const BWString::split_ptr & BWString::split( const char * match, int max_split ) const {$/;"	f	class:BWString
+split	BWString.cpp	/^const BWString::split_ptr & BWString::split( const char match ) const {$/;"	f	class:BWString
+split_count	BWString.h	/^    size_t split_count() const { return _split_count; }$/;"	f	class:BWString
+split_item	BWString.cpp	/^const BWString & BWString::split_item( size_t index ) const {$/;"	f	class:BWString
+split_ptr	BWString.h	/^    typedef _split_ptr split_ptr;$/;"	t	class:BWString
+substr	BWString.cpp	/^BWString BWString::substr( size_t start, size_t length ) {$/;"	f	class:BWString
+summary	BWUTest.h	/^    bool summary ( ) { return _summary_flag; }$/;"	f	class:BWUTest
+summary	BWUTest.h	/^    bool summary ( bool flag ) { return _summary_flag = flag; }$/;"	f	class:BWUTest
+summary_flag	unit-tests.cpp	/^bool summary_flag = false;$/;"	v
+swap	BWString.cpp	/^void BWString::swap(BWString & other) {$/;"	f	class:BWString
+test	BWUTest.cpp	/^void BWUTest::test ( const char * description, const int flag ) {$/;"	f	class:BWUTest
+tfail	unit-tests.cpp	/^unsigned long int tpass = 0, tfail = 0;$/;"	v
+tpass	unit-tests.cpp	/^unsigned long int tpass = 0, tfail = 0;$/;"	v
+trim	BWString.cpp	/^BWString & BWString::trim() {$/;"	f	class:BWString
+upper	BWString.cpp	/^BWString BWString::upper() const {$/;"	f	class:BWString
+vasprintf	BWString.cpp	/^int vasprintf(char ** ret, const char * format, va_list ap)$/;"	f
+version	BWString.h	/^    static const char * version() { return __BWString__VERSION; }$/;"	f	class:BWString
+version	BWUTest.h	/^    static const char * version() { return __BWUTest_VERSION; }$/;"	f	class:BWUTest
+~BWString	BWString.cpp	/^BWString::~BWString() {$/;"	f	class:BWString
